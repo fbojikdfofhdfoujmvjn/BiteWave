@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiteWave Admin - Add Product</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header>
+        <h1>BiteWave Admin - Add Product</h1>
+    </header>
+    <main>
+        <form id="product-form">
+            <label for="name">Product Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="price">Price ($):</label>
+            <input type="number" id="price" name="price" required>
+            
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+            
+            <label for="imageUrl">Image URL:</label>
+            <input type="text" id="imageUrl" name="imageUrl" required>
+            
+            <button type="submit">Add Product</button>
+        </form>
+    </main>
+    <script src="admin.js"></script>
+</body>
+</html>
