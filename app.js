@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const productList = document.getElementById('product-list');
             products.forEach(product => {
                 const productDiv = document.createElement('div');
+                productDiv.className = 'product';
                 productDiv.innerHTML = `
                     <h2>${product.name}</h2>
                     <p>${product.description}</p>
